@@ -1,0 +1,95 @@
+<div class="pizzas">
+
+    <div class="contain small_pizza">
+
+        <h2>Small Pizza</h2>
+
+        <div class="pizza_img">
+            <img src="pizza1.png" width="100">
+        </div>
+
+        <table class="pizza_top">
+            <tr>
+                <td colspan="2">
+                    <h3>R39.00</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        Small Pizza with 3 toppings max.<br>
+                        1 meat topping.<br>
+                        3 or less other toppings.
+                    </div>
+                </td>
+                <td>
+                    <form action="/cart" method="POST">
+                        <button class="pBtn small buy" name="size" value="smallAdd" on type="submit">Buy</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="contain medium_pizza">
+
+        <h2>Medium Pizza</h2>
+
+        <div class="pizza_img">
+            <img src="pizza.png" width="125">
+        </div>
+
+        <table class="pizza_top">
+            <tr>
+                <td colspan="2">
+                    <h3>R79.00</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        Medium Pizza with 3 toppings max.<br>
+                        2 or less meat toppings.<br>
+                        3 or less other toppings.
+                    </div>
+                </td>
+                <td>
+                    <form action="/cart" method="POST">
+                        <button class="pBtn med buy" name="size" value="medAdd" on type="submit">Buy</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="contain large_pizza">
+
+        <h2>Large Pizza</h2>
+
+        <div class="pizza_img">
+            <img src="pizza2.png" width="150">
+        </div>
+
+        <table class="pizza_top">
+            <tr>
+                <td colspan="2">
+                    <h3>R99.00</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        Large Pizza with 3 toppings max.<br>
+                        3 or less meat toppings.<br>
+                        3 or less other toppings.
+                    </div>
+                </td>
+                <td>
+                    <form action="/cart" method="POST">
+                        <button class="pBtn large buy" name="size" value="largeAdd" on type="submit">Buy</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
